@@ -1,0 +1,203 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+    font: 100% Helvetica, sans-serif;
+    color: #333;
+    background-color: lightblue;
+  }
+  
+  a{
+      color: black;
+      text-decoration: none;
+  }
+  a:hover {
+    background-color: rgb(198, 214, 116);
+  }
+
+  header {
+    font: 100% Verdana, sans-serif;
+    font-size: 45px;
+    line-height: 2;
+    font-weight: bold;
+    text-align: left;
+    padding: 2%;
+    background-image: url(img/1.jpg);
+
+    
+  }
+  
+  .summary {
+    font: 100% Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 6%;
+    margin-left: 4%;
+    display: block;
+    background-color: lightseagreen ;
+    width: 500px;
+    height: 140px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px 50px;
+    padding: 1.5%;
+  } 
+  
+
+  .preamble {
+    font: 100% Verdana, sans-serif;
+    font-weight: bold;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: block;
+    margin-left: 50%;
+    margin-top: -240px;
+    background-color: indianred;
+    width: 800px;
+    padding: 2%;
+    border-radius: 50px 50px;
+  }
+  
+  .preamble h3 {
+    font: 100% Verdana, sans-serif;
+    font-size: 29px;
+  }
+  
+  .supporting h3 {
+    font: 100% Verdana, sans-serif;
+    font-size: 29px;
+  }
+  .explanation {
+    font: 100% Verdana, sans-serif;
+    font-weight: bold;
+    background-color: moccasin;
+    width: 750px;
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 50px 50px;
+  }
+  
+  .participation{
+    font: 100% Verdana, sans-serif;
+    font-weight: bold;
+    background-color: palegreen;
+    width: 800px;
+    margin-left: 50%;
+    margin-top: -15%;
+    padding: 2%;
+    border-radius: 50px 50px;
+  }
+
+  .benefits{
+    font: 100% Verdana, sans-serif;
+    font-weight: bold;
+    background-color: plum  ;
+    width: 700px;
+    margin-top: 4%;
+    padding: 2%;
+    border-radius: 50px 50px;
+  }
+  
+  .supporting {
+    font: 100% Verdana, sans-serif;
+    margin-top: 4%;
+    margin-left: 2%;
+  }
+
+  .requirements{
+    background-color: tomato  ;
+    font-weight: bold;
+    width: 800px;
+    padding: 2%;
+    margin-left: 51% ;
+    margin-top: -11%;
+    border-radius: 50px 50px;
+  }
+
+
+  footer{
+    font-weight: bold;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-style: solid none;
+    text-align: center;
+    margin-left: -3%;
+    width: 1837px;
+    height: 40px;
+    padding: 2%;
+    a{
+        padding: 2%;
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+  }
+
+  .sidebar{
+    font: 100% Verdana, sans-serif;
+    font-weight: bold;
+  }
+
+  .sidebar .design-selection{
+    margin-top: -5%;
+    h3{
+        text-align: center;
+        font-size: 26px;
+    }
+    border: 0px solid black;
+      width: 400px;
+      height: 450px;
+      padding: 2.5%;
+      margin-left: 8%;
+      margin-bottom: 1%;
+      li{
+        background-color: burlywood;
+        padding: 4%;
+    }
+  }
+
+  .sidebar .design-archives{
+    h3{
+        text-align: center;
+        font-size: 26px;
+    }
+    border: 0px solid black;
+    width: 400px;
+    padding: 2%;
+    margin-left: 37%;
+    margin-top: -30%;
+    li{
+        background-color: burlywood;
+        padding: 4%;
+    }
+}
+
+.sidebar .zen-resources{
+    h3{
+        text-align: center;
+        font-size: 26px;
+    }
+    border: 0px solid black;
+    width: 400px;
+    padding: 2%;
+    margin-left: 65%;
+    margin-top: -14.5%;
+    li{
+        background-color: burlywood;
+        padding: 4%;
+    }
+}
+
+  .sidebar {
+    margin-top: 4%;
+    margin-left: 2%;
+  }
